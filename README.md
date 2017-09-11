@@ -1,4 +1,4 @@
-# node-xlib.py @V2.0.0
+# node-xlib.py @V2.0.1
 
 node module for python xlib: xlib.py
 
@@ -8,10 +8,10 @@ NOTE: Use version 2+
 
 ```bash
     # -S is --save; use -D or --save-dev if it is a dev dependency
-    npm i -S node-xlib.py
+    npm i -S xlib.py
 
     # using in example.js
-    const xlib_py = require('node-xlib.py')
+    const xlib_py = require('xlib.py')
 
     for(let {key, value} of xlib_py.zip([0, 1, 2, 3], [10, 'a', 20, 0])) {
         console.log(key, value);
