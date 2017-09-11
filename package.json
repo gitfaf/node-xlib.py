@@ -1,6 +1,6 @@
 {
   "name": "xlib.py",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "xlib package for python libraries",
   "main": "index.js",
   "scripts": {
@@ -16,10 +16,7 @@
     "python",
     "javascript",
     "node",
-    "\"python",
-    "library",
-    "for",
-    "nodejs\"",
+    "python library for nodejs",
     "zip"
   ],
   "author": "Git Faf <git.faf@gmail.com>",

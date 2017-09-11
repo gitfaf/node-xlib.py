@@ -1,9 +1,10 @@
 # node-xlib.py
+
 node module for python xlib: xlib.py
 
-# usage
+## Usage
 
-```
+```bash
     # -S is --save; use -D or --save-dev if it is a dev dependency
     npm i -S node-xlib.py
 
@@ -20,9 +21,9 @@ node module for python xlib: xlib.py
     // 3 0
 ```
 
-# development
+## Development
 
-```
+```bash
     git clone git@github.com:gitfaf/node-xlib.py.git
     cd node-xlib.py
     npm i
@@ -36,6 +37,6 @@ node module for python xlib: xlib.py
 
 Please `rebase` instead of `merge` i.e. `git pull --rebase` always!
 
-# License
+## License
 
-MIT &copy; GÏit Faf 2017
+MIT &copy; Git Faf 2017
