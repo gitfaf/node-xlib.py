@@ -1,0 +1,34 @@
+{
+  "name": "xlib.py",
+  "version": "1.0.0",
+  "description": "xlib package for python libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitfaf/node-xlib.py.git"
+  },
+  "keywords": [
+    "xlib",
+    "xlib.py",
+    "python",
+    "javascript",
+    "node",
+    "\"python",
+    "library",
+    "for",
+    "nodejs\"",
+    "zip"
+  ],
+  "author": "Git Faf <git.faf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitfaf/node-xlib.py/issues"
+  },
+  "homepage": "https://github.com/gitfaf/node-xlib.py#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
+}
