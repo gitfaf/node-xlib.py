@@ -1,8 +1,10 @@
-# node-xlib.py
+# node-xlib.py @V2.0.0
 
 node module for python xlib: xlib.py
 
 ## Usage
+
+NOTE: Use version 2+
 
 ```bash
     # -S is --save; use -D or --save-dev if it is a dev dependency

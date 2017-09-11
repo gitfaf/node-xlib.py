@@ -1,5 +1,6 @@
-const zip = require('./py/zip')
+const lib = require('./py/zip')
 
 module.exports = {
-    zip
+    zip: lib.zip,
+    xzip: lib.xzip
 }
