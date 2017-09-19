@@ -10,8 +10,7 @@
  * @return yields tuple/object of zipped lists
  * @params list of lists/vectors
  */
-function* zip(/* lists */) {
-    let lists = Array.from(arguments)
+function* zip(...lists) {
     let lengths = lists.map(list => list.length)
     let minLen = Math.min.apply(null, lengths)
     for(let i = 0; i < minLen; i++) {
@@ -29,8 +28,7 @@ function* zip(/* lists */) {
  * @params list of lists/vectors.
  * @return yields tuples/objects with list until longest list has elements to zip.
  */
-function * xzip() {
-    let lists = Array.from(arguments)
+function * xzip(...lists) {
     let lengths = lists.map(list => list.length)
     let maxLen = Math.max.apply(null, lengths)
     for(let i = 0; i < maxLen; i++) {
